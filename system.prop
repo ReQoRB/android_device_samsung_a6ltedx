@@ -1,0 +1,9 @@
+
+# USB Hata Ayıklama (ADB) Açılışta Zorunlu Aktif
+persist.sys.usb.config=adb
+ro.adb.secure=0
+ro.debuggable=1
+
+# Exynos 7870 Deklanşör Tampon Fixi
+persist.camera.zsl.disabled=1
+camera.disable_zsl_mode=1
