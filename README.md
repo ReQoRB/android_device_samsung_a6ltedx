@@ -1,7 +1,5 @@
 Device tree for the SM-A600G
 
-It was announced and released in May 2018.
-
 
 ## Device specifications
 
