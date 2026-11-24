@@ -70,6 +70,7 @@
 	</path>
 
 	<path name="route-cp">
+		<ctl name="AudioMixer CP1 En" value="On" />
 		<ctl name="AudioMixer Mixer En" value="On" />
 		<ctl name="AudioMixer SRC2 En" value="On" />
 		<ctl name="AudioMixer SRC3 En" value="Off" />
@@ -240,24 +241,21 @@
 
 	<!-- L ch: main-mic / R ch: 2nd-mic -->
 	<path name="dev-dual-mic">
-		<path name="dev-main-mic" />
-		<!--
-		<ctl name="ADCL Mixer MIC1L Switch" value="1" />
-		<ctl name="ADCL Mixer MIC2L Switch" value="0" />
-		<ctl name="ADCL Mixer MIC3L Switch" value="0" />
-		<ctl name="ADCL Mixer LINELL Switch" value="0" />
-		<ctl name="ADCL Mixer LINERL Switch" value="0" />
-		<ctl name="ADCR Mixer MIC1R Switch" value="0" />
-		<ctl name="ADCR Mixer MIC2R Switch" value="1" />
-		<ctl name="ADCR Mixer MIC3R Switch" value="0" />
-		<ctl name="ADCR Mixer LINELR Switch" value="0" />
-		<ctl name="ADCR Mixer LINERR Switch" value="0" />
-		<ctl name="MIC1 MIC1 On" value="1" />
-		<ctl name="MIC2 MIC2 On" value="1" />
-		<ctl name="MIC3 MIC3 On" value="0" />
-		<ctl name="LINEIN LINEIN On" value="0" />
-		-->
-	</path>
+<ctl name="ADCL Mixer MIC1L Switch" value="1" />
+<ctl name="ADCL Mixer MIC2L Switch" value="0" />
+<ctl name="ADCL Mixer MIC3L Switch" value="0" />
+<ctl name="ADCL Mixer LINELL Switch" value="0" />
+<ctl name="ADCL Mixer LINERL Switch" value="0" />
+<ctl name="ADCR Mixer MIC1R Switch" value="0" />
+<ctl name="ADCR Mixer MIC2R Switch" value="0" />
+<ctl name="ADCR Mixer MIC3R Switch" value="0" />
+<ctl name="ADCR Mixer LINELR Switch" value="0" />
+<ctl name="ADCR Mixer LINERR Switch" value="0" />
+<ctl name="MIC1 MIC1 On" value="1" />
+<ctl name="MIC2 MIC2 On" value="0" />
+<ctl name="MIC3 MIC3 On" value="0" />
+<ctl name="LINEIN LINEIN On" value="0" />
+</path>
 
 	<!-- L ch: 2nd-mic / R ch: main-mic -->
 	<path name="dev-dual-invert-mic">
