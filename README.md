@@ -1,5 +1,4 @@
-The Samsung Galaxy A6 (codenamed _"a6lte"_) are a mid-range smartphone from Samsung. 
-This device tree is for the SM-A600G variant.
+Device tree for the SM-A600G
 
 It was announced and released in May 2018.
 
