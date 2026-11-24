@@ -80,8 +80,7 @@ BOARD_CAMERA_HAL3_FEATURE := true
 SIM_COUNT := 2
 
 # Shims
-TARGET_LD_SHIM_LIBS += \
-    /vendor/lib/libbauthserver.so|/vendor/lib/libbauthtzcommon_shim.so
+# libbauthserver.so already has DT_NEEDED libbauthtzcommon_shim.so
 
 # Wifi
 BOARD_WLAN_DEVICE                := bcmdhd
